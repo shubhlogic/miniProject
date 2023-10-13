@@ -1,31 +1,58 @@
 <template>
-		<lightning-card title="Project Name Summary Project1">
-		<div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Name 1:" value={First_Name} onchange={handle_First_Name_Change}></lightning-input>
+  <lightning-card title="Project Name Summary Project1">
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter Name 1:"
+        value={First_Name}
+        onchange={handle_First_Name_Change}
+      ></lightning-input>
     </div>
-		<div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Name 2:" value={Second_Name} onchange={handle_Second_Name_Change}></lightning-input>
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter Name 2:"
+        value={Second_Name}
+        onchange={handle_Second_Name_Change}
+      ></lightning-input>
     </div>
-		<div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Name 3:" value={Third_Name} onchange={handle_Third_Name_Change}></lightning-input>
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter Name 3:"
+        value={Third_Name}
+        onchange={handle_Third_Name_Change}
+      ></lightning-input>
     </div>
-		<div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Name 4:" value={Forth_Name} onchange={handle_Forth_Name_Change}></lightning-input>
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter Name 4:"
+        value={Forth_Name}
+        onchange={handle_Forth_Name_Change}
+      ></lightning-input>
     </div>
-		<div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Name 5:" value={Fifth_Name} onchange={handle_Fifth_Name_Change}></lightning-input>
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter Name 5:"
+        value={Fifth_Name}
+        onchange={handle_Fifth_Name_Change}
+      ></lightning-input>
     </div>
-				<div>
-						<lightning-button variant="brand"
-                         label="Save"
-												 onclick={handleSubmit}
-                         class="slds-m-left_x-small">
-    </lightning-button>
-    <lightning-button variant="brand"
-                         label="Back"
-											onclick={handleSubmit}
-                         class="slds-m-left_x-small">
-        </lightning-button>
-				</div>
-		</lightning-card>
-</template>
+    <div>
+      <lightning-button
+        variant="brand"
+        label="Save"
+        onclick={handleSubmit}
+        class="slds-m-left_x-small"
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label="Back"
+        onclick={handleSubmit}
+        class="slds-m-left_x-small"
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>;
